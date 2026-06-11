@@ -11,6 +11,12 @@ import schemas
 app = FastAPI(
     title="LifeGuard AI"
 )
+@app.get("/vikesh-test")
+def vikesh_test():
+    return {
+        "status": "SUCCESS",
+        "message": "This is the REAL backend/main.py"
+    }
 
 models.Base.metadata.create_all(
     bind=engine
