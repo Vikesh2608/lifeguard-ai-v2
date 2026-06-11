@@ -42,7 +42,7 @@ def get_db():
 @app.get("/")
 def home():
     return {
-        "message": "LifeGuard AI Backend Running"
+        "message": "VIKESH TEST VERSION 999"
     }
 
 
